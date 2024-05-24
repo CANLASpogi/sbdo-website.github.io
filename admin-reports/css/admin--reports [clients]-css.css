@@ -17,6 +17,23 @@ html {
 body {
 	background-color: #DADADA;
 }
+h1{
+    padding-left:0.5em;
+	color: #fff;
+    font-size:5em;
+    font-weight:400;
+}
+h2{
+	padding:1em;
+	color: #fff;
+    font-size:2.5em;
+    font-weight:400;
+    
+}
+
+.details h2{
+    font-size:2em;
+}
 
 .reports-title {
 	font-family: Inter;
@@ -122,13 +139,58 @@ body {
 
 }
 
-.graphs img {
-	max-width: 80%;
+.firstlayer,
+.secondlayer,
+.thirdlayer{
+	height:50vh;
+	width:96%;
+	margin-block:1rem;
+	display:flex;
 
-	height: auto;
+	
+}
+.firstlayer{
+	position:relative;
+}
+.firstlayer div{
+	position:absolute;
+	height:60%;
+	width:25%;
+	background-color: #0D98BA;
+	left:1rem;
+	top:5rem;
+}
 
-	margin: 1rem 0 0 8rem;
+.secondlayer .details{
+	height:100%;
+	width:25%;
 
+	
+	
+}
+.thirdlayer .details{
+	height:100%;
+	width:25%;
+
+	
+	
+}
+
+.details div{
+	height:50%;
+	width:70%;
+	margin: auto 2em;
+	background-color: #0D98BA;
+}
+
+.firstline{
+	width:75%;
+	height:100%;
+}
+
+.secondline{
+	width:75%;
+	height:100%;
 }
 
 @media screen and (max-width: 768px) {
